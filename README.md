@@ -28,7 +28,7 @@ Configure: Add `jsxgettext-loader` to loader pipeline after all other transforms
 
 ## Configuration
 
-All congiguration from loader query is passed directly to `jsxgettext.generate()`.
+All configuration from loader query is passed directly to `jsxgettext.generate()`.
 
 Accepts (at least) the following parameters:
 
