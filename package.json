@@ -1,0 +1,23 @@
+{
+  "name": "jsxgettext-loader",
+  "version": "0.1.0",
+  "description": "Passthrough loader for collecting gettext keys from source",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gettext",
+    "xgettext",
+    "webpack",
+    "i18n",
+    "l10n"
+  ],
+  "author": "Niklas Närhinen <niklas@narhinen.net>",
+  "license": "MIT",
+  "dependencies": {
+    "jsxgettext": "^0.8.1",
+    "loader-utils": "^0.2.12",
+    "lodash.merge": "^3.3.2"
+  }
+}
