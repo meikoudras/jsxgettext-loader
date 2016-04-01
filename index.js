@@ -17,7 +17,7 @@ function loader(content) {
   if (!opts.keyword) opts.keyword = ['gettext'];
   if (!opts.output || !opts.outputDir) throw new Error('jsxgettext-loader needs output to be configured');
   var sources = {};
-  sources[this.resourcePath] = content;
+  sources[this.resourcePath.replace(process.cwd(), '').replace(/^\//, '')] = content;
   var result = jsxgettext.generate(sources, opts);
   fs.writeFileSync(path.join(opts.outputDir, opts.output), result, 'utf-8');
   return content;
