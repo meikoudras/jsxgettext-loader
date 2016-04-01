@@ -1,6 +1,6 @@
 {
   "name": "jsxgettext-loader",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Passthrough loader for collecting gettext keys from source",
   "main": "index.js",
   "scripts": {
