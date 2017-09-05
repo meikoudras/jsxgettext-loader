@@ -1,6 +1,6 @@
 {
   "name": "jsxgettext-loader",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Passthrough loader for collecting gettext keys from source",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,7 @@
   "author": "Niklas Närhinen <niklas@narhinen.net>",
   "license": "MIT",
   "dependencies": {
-    "jsxgettext": "^0.8.1",
+    "jsxgettext": "^0.10.2",
     "loader-utils": "^0.2.12",
     "lodash.merge": "^3.3.2"
   }
